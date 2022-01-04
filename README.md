@@ -1,10 +1,14 @@
-# extended-knapsack
+# extended_knapsack
 
 0-1 knapsack with an additional constraint of maximum number of items used.
 
 ## Usage
 
+`pip3 install extended_knapsack`
+
 ```python
+from extended_knapsack.knapsack import solve
+
 items = [
     {'weight': 4, 'value': 5, 'my-custom-field': 1},
     {'weight': 3, 'value': 4, 'my-custom-field': 2},

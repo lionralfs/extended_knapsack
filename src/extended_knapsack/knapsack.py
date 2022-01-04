@@ -5,7 +5,7 @@ import numpy as np
 # with a third dimension in the table for the number of items used
 
 
-def knapsack(items: list, capacity: int, max_items: int) -> tuple:
+def solve(items: list, capacity: int, max_items: int) -> tuple:
     assert capacity >= 0
     assert max_items >= 0
     n = len(items)
