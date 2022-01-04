@@ -18,6 +18,7 @@ jobs:
           python-version: 3.9
       - name: Install dependencies
         run: make install
+      # !! venv has to be activated at every step !!
       - name: Test
         run: . ./venv/bin/activate && make test
       - name: Lint
