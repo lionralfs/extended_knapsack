@@ -17,8 +17,8 @@ jobs:
         with:
           python-version: 3.9
       - name: Install dependencies
-        run: make install && . ./venv/bin/activate
+        run: make install
       - name: Test
-        run: make test
-      - name: Lint with pycodestyle
-        run: make lint
+        run: . ./venv/bin/activate && make test
+      - name: Lint
+        run: . ./venv/bin/activate && make lint
