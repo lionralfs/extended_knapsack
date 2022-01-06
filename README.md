@@ -1,5 +1,7 @@
 # extended_knapsack
 
+[![PyPI Latest Release](https://img.shields.io/pypi/v/extended_knapsack.svg)](https://pypi.org/project/extended-knapsack/)
+
 0-1 knapsack with an additional constraint of maximum number of items used.
 
 ## Usage
